@@ -39,5 +39,4 @@ public class InventoryController
     {
         itemService.deleteItem(itemId);
     }
-
 }

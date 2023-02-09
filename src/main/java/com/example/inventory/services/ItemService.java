@@ -93,6 +93,7 @@ public class ItemService
 
             item.getContainerList().add(container.getContainerId());
             itemRepository.save(item);
+
             return container.getContainerId();
         }
     }
